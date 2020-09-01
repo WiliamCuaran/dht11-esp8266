@@ -43,7 +43,7 @@ const sensorschema = new Schema({
 
 
 });
-
+//const sensor = mongoose.model('sensor',sensorSchema);
 const sensor = mongoose.model('sensor', sensorschema);
 
 //end
